@@ -150,42 +150,6 @@
 
 ---
 
-## 🔧 **BOLT BUILD LAYOUT**
-
-### **Project Structure**
-```
-src/
-├── components/
-│   ├── auth/           # Login, registration, route protection
-│   ├── dashboard/      # Main user interface
-│   ├── admin/          # Tool creation wizard, management
-│   ├── chat/           # AI conversation interface
-│   ├── projects/       # Project organization
-│   ├── knowledge/      # File upload and management
-│   └── shared/         # Reusable UI elements
-├── services/
-│   ├── supabase/       # API service layer
-│   ├── auth/           # Authentication service
-│   └── ai/             # AI integration service
-├── stores/              # Zustand state management
-├── types/               # TypeScript type definitions
-├── utils/               # Helper functions
-└── hooks/               # Custom React hooks
-```
-
-### **Build Order in Bolt**
-1. **Project Initialization**: Create React + TypeScript + Vite project
-2. **Dependencies**: Install Tailwind CSS, Zustand, React Markdown
-3. **Supabase Setup**: Create project, configure auth and storage
-4. **Database Schema**: Implement tables and RLS policies
-5. **API Services**: Build SupabaseApiService and authentication
-6. **Edge Functions**: Deploy AI chat processing function
-7. **Core Components**: Build authentication and dashboard
-8. **Admin Panel**: Create tool creation wizard and management
-9. **Chat Interface**: Implement AI conversation system
-10. **Testing & Deployment**: Comprehensive testing and production deployment
-
----
 
 ## 🔧 **DEVELOPMENT SETUP**
 
@@ -266,3 +230,4 @@ This blueprint provides everything needed to build a **fully functional, product
 
 *Last Updated: August 2025*  
 *Version: 2.0 - Concise Production Blueprint*
+
